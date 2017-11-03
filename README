@@ -10,8 +10,8 @@ the URL https://github.com/Masoud-Fatemi/Sentiment-20NG .
 About Dataset:
 
      In the context of Natural Language Processing (NLP) specifically in the field of Topic Modeling and Sentminet Analysis for methods which simultaneously models topics and sentiments, the first requirement for the evaluation in the data retrieval task is to use a dataset with both sentiment and topic labels for every document. Given the absence of such dataset, we created the following datasets with both sentiment and topic tags for the evaluating purpose.
-
-   The created S-20NG by assigning sentiment tags to the 20-NewsGroup dataset. To do so, for each document we counted the number of words with known sentiment polarity using the MPQA sentiment lexicon. Then, the documents for which the number of positive words was greater than negative were given a positive tag and vice versa. we called this dataset S-20NG.
+     
+   we created S-20NG by assigning sentiment tags to the 20-NewsGroup dataset. To do so, for each document we counted the number of words with known sentiment polarity using the MPQA sentiment lexicon. Then, the documents for which the number of positive words was greater than negative were given a positive tag and vice versa. we called this dataset S-20NG.
 
  ====================
 
