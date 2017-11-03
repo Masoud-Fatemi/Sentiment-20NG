@@ -1,0 +1,42 @@
+
+
+Introduction:
+
+This readme for the MRMDS dataset (Nov 2017) comes from 
+the URL https://github.com/Masoud-Fatemi/MRMDS-dataset .
+
+=====================
+
+About Dataset:
+
+     In the context of Natural Language Processing (NLP) specifically in the field of Topic Modeling and Sentminet Analysis for methods which simultaneously models topics and sentiments, the first requirement for the evaluation in the data retrieval task is to use a dataset with both sentiment and topic labels for every document. Given the absence of such dataset, we created the following datasets with both sentiment and topic tags for the evaluating purpose.
+
+     We created this dataset by compilation of the Movie Review (MR) and the Multi-Domains Sentiment (MDS) datasets which both of them are well-known datasets in the field of Opinion Mining and Sentminet Analysis. All of these 5 datasets (MDS alone consists of 4 different parts, each containing 2000 documents) only have sentiment labels. But each of these documents can be considered to represent a specific topic. Thus, these datasets were combined together to create a new larger dataset called MRMDS, which consists of 10000 documents, 5000 with positive tags and 5000 with negative tags, and five topics including: movie, book, DVD, electronic, and kitchen appliances. After the preprocessing phase, each of these documents was converted to the lib-svm file using the 2000-word dictionary of the 20NG dataset. Of the 10000 document obtained by combining these 5 datasets, 7500 documents with even sentiment label distribution (3750 documents labels with positive and 3750 documents with negative labels) and even topic distribution (1500 documents -consisting of 750 positive and 750 negative documents- per topic,) were assigned to the training set. The remaining 2500 documents (500 documents -consisting of 250 positive and 250 negative documents- per topic) were assigned to the testing set.
+
+ ====================
+
+ Citation Information:
+
+This dataset was first used in Masoud Fatemi and Mehran Safayani,
+``Extending of Restricted Boltzman Machine for Joint Sentiment/Topic Modeling on Text Data'',
+
+ @InProceedings{joint-senttopic2017,
+  author = {M. Fatemi and M. Safayani},
+  title =  {Extending of Restricted Boltzman Machine for Joint Sentiment/Topic Modeling on Text Data},
+  year =   2017      
+}
+
+
+ ====================
+
+ Data Format Summary:
+
+MRMDS-dataset: contains this readme and three other data files (train, test, vocab) which created and used by Fatemi/Safayani in described paper. 
+Each line in the "train" or "test" files correspond to a document and organized as follow:
+
+<sentiment_label> <topic_label> <id:count> <id:count> <id:count> <id:count> ...
+
+sentiment_label: specifies sentiment polarity of a document. sentimen_label could be "1" or "2". "1" represents positive sentiment label and "2" shows negative setinemt label for current document.
+topic_label: specifies the topic of a document. topic_label is an integer between 1 to 5 (book=1, dvd=2, electronics=3, kitchen=4, movie=5).
+id: represents a word index in the "vocab" file.
+count: shows the number of a specific word which identifies by "id" in the document.
