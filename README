@@ -40,3 +40,12 @@ sentiment_label: specifies sentiment polarity of a document. sentimen_label coul
 topic_label: specifies the topic of a document. topic_label is an integer between 1 to 20.
 id: represents a word index in the "vocab" file.
 count: shows the number of a specific word which identifies by "id" in the document.
+
+
+=====================
+
+Contanct Information:
+
+For furthur questions please contact:
+m.fatemi@ec.iut.ac.ir
+safayani@cc.iut.ac.ir
