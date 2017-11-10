@@ -9,7 +9,7 @@ the URL https://github.com/Masoud-Fatemi/Sentiment-20NG .
 
 About Dataset:
 
-     In the context of Natural Language Processing (NLP) specifically in the field of Topic Modeling and Sentminet Analysis for methods which simultaneously models topics and sentiments, the first requirement for the evaluation in the data retrieval task is to use a dataset with both sentiment and topic labels for every document. Given the absence of such dataset, we created the following datasets with both sentiment and topic tags for the evaluating purpose.
+     In the context of Natural Language Processing (NLP) specifically in the field of Topic Modeling and Sentminet Analysis for methods which simultaneously models topics and sentiments, the first requirement for the evaluation in the data retrieval task is to use a dataset with both sentiment and topic labels for every document. Given the absence of such dataset, we created the following datasets with both sentiment and topic tags for the evaluating of purposed model.
      
    we created S-20NG by assigning sentiment tags to the 20-NewsGroup dataset. To do so, for each document we counted the number of words with known sentiment polarity using the MPQA sentiment lexicon. Then, the documents for which the number of positive words was greater than negative were given a positive tag and vice versa. we called this dataset S-20NG.
 
@@ -18,14 +18,14 @@ About Dataset:
  Citation Information:
 
 This dataset was first used in Masoud Fatemi and Mehran Safayani,
-``Extending of Restricted Boltzman Machine for Joint Sentiment/Topic Modeling on Text Data'',
+`` Joint Sentiment/Topic Modeling on Text Data Using Boosted Restricted Boltzman Machine'',
 
  @InProceedings{joint-senttopic2017,
   author = {M. Fatemi and M. Safayani},
   title =  {Extending of Restricted Boltzman Machine for Joint Sentiment/Topic Modeling on Text Data},
-  year =   2017      
+  year =   2017     
 }
-
+Please cite us if you use this data set in any publications, Thank you.
 
  ====================
 
